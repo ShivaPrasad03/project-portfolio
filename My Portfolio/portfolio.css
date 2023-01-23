@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.head1 {
+    font-size: 24px;
+}
+
+.gmail:hover {
+    background-color: #D44638;
+    box-shadow: 0 0 10px #D44638, 0 0 40px #D44638, 0 0 60px #D44638, 0 0 80px #D44638;
+}
+
+.linkedin:hover {
+    background-color: #0A66C2;
+    box-shadow: 0 0 10px #0A66C2, 0 0 40px #0A66C2, 0 0 60px #0A66C2, 0 0 80px #0A66C2;
+}
+
+.instagram:hover {
+    background-image: linear-gradient(to top, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    box-shadow: 0 0 10px #fa7e1e, 0 0 40px #fa7e1e, 0 0 60px #fa7e1e, 0 0 80px #fa7e1e;
+}
+
+.twitter:hover {
+    background-color: #00acee;
+    box-shadow: 0 0 10px #00acee, 0 0 40px #00acee, 0 0 60px #00acee, 0 0 80px #00acee;
+}
+
+.gmail-1:hover {
+    color: #fff;
+}
+
+.card-icon {
+    background-color: white;
+    border-radius: 24px;
+    width: 320px;
+    padding: 5px;
+
+
+}
+
+.icon-details {
+    font-size: 18px;
+    font-family: bree serif;
+    color: #000;
+}
+
+.icon1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+
+    padding-top: 9px;
+    padding-left: 10px;
+    margin-right: 15px;
+    margin-top: 2px;
+
+}
+
+.icon {
+    font-size: 22px;
+    color: white;
+
+}
+
+.img {
+    width: 80%;
+    height: 90%;
+    border-radius: 5px;
+
+}
+
+.footfall {
+    background-color: #000;
+    background-size: cover;
+
+}
+
+.text1:hover {
+    background-color: #374dab;
+
+    text-shadow: 0 0 40px #2e54f0, 0 0 60px #2e54f0, 0 0 80px #2e54f0, 0 0 100px #2e54f0;
+}
+
+.newcss1 {
+    animation-name: newcss1;
+    animation-duration: 10s;
+    animation-timing-function: ease in;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+}
+
+.newcss {
+    animation-name: newcss;
+    animation-duration: 10s;
+    animation-timing-function: ease in;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+}
+
+.newcss2 {
+    animation-name: newcss2;
+    animation-duration: 10s;
+    animation-timing-function: ease in;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+}
+
+.newcss3 {
+    animation-name: newcss3;
+    animation-duration: 10s;
+    animation-timing-function: ease in;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes newcss2 {
+    from {
+        transform: translateY(300px);
+    }
+
+    to {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes newcss3 {
+    from {
+        transform: translateY(-300px);
+    }
+
+    to {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes newcss {
+    from {
+        transform: translateX(300px);
+    }
+
+    to {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes newcss1 {
+    from {
+        transform: translateX(-300px);
+    }
+
+    to {
+        transform: translateX(0px);
+    }
+}
+
+.card-intro {
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 5px;
+    background-image: linear-gradient(to top, #2e3192, #1bffff);
+}
+
+.logo1 {
+    border-style: solid;
+    border-color: white;
+    width: 50px;
+    height: 45px;
+    padding-left: 8px;
+    padding-top: 2px;
+}
+
+.p-1 {
+    margin-top: 5px;
+    color: #0862c9;
+}
+
+.intro-bg {
+    background-image: linear-gradient(to right, #000000, #0a1852);
+    background-size: cover;
+
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+
+}
+
+.img1 {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    animation-name: newcss1;
+    animation-duration: 2s;
+    animation-timing-function: ease in;
+    animation-delay: 1s;
+}
+
+.car-1 {
+    margin-top: 50px;
+}
+
+.contact-btn {
+    font-family: Consolas;
+    border-width: 1px;
+    border-color: #2196f3;
+    color: white;
+    font-size: 20px;
+    background-color: transparent;
+    animation-name: newcss1;
+    animation-duration: 5s;
+    animation-timing-function: ease in;
+    animation-delay: 1s;
+    transition: 0.2s;
+}
+
+.name-1 {
+    color: #2196f3;
+    font-weight: bold;
+    letter-spacing: 3px;
+
+    text-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 60px #2196f3, 0 0 80px #2196f3;
+}
+
+.contact-btn:hover {
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 60px #2196f3, 0 0 80px #2196f3;
+}
+
+.head2 {
+    font-family: Consolas;
+    color: white;
+    font-size: 25px;
+    animation-name: newcss;
+    animation-duration: 2s;
+    animation-timing-function: ease in;
+    animation-delay: 1s;
+}
+
+.para1 {
+    font-family: Consolas;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    animation-name: newcss;
+    animation-duration: 2s;
+    animation-timing-function: ease in;
+    animation-delay: 1s;
+}
+
+.card-1 {
+    border-radius: 5px;
+    background-image: linear-gradient(TO BOTTOM RIGHT, #121C84, #8278DA);
+    background-size: cover;
+
+}
+
+
+
+.head3 {
+    font-size: 25px;
+    color: white;
+    margin-top: 15px;
+}
+
+.card2 {
+    border-radius: 5px;
+    text-align: center;
+    background-image: linear-gradient(to left, #000000 0%, #0a1852 100%);
+    padding-top: 22px;
+    padding-bottom: 22px;
+    margin-top: 20px;
+
+}
+
